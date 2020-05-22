@@ -1,7 +1,5 @@
 body{
-
 	margin: auto;
-	
 }
 
 
@@ -100,10 +98,11 @@ body{
 	padding: 2%;
 }
 .icons > a:nth-of-type(1){
-	margin-right: 20%;
+	margin-right: 200px;
+
 }
 .icons > a:nth-of-type(2){
-	margin-right: 18%;
+	
 }
 .text{
 	margin-top: 5%;
@@ -123,6 +122,10 @@ body{
 .footer{
 	text-align: center;
 	font-family: 'Allerta Stencil';
+}
+.footerLog{
+	text-align: center;
+	font-family: "allerta stencil";
 }
 .gridContainer{
 	display: grid;
@@ -153,13 +156,144 @@ body{
 	text-align: center;
 	width: 70%;
 	margin: auto;
+
+}
+
+.whole{
+	width: 200px;
 }
 .char{
 	height: 250px;
 	width: 200px;
 }
+.char:hover{
+	transform: scale(1.1);
+}
 .char1{
 	height: 200px;
 	width: 200px;
 	background-color: red;
+}
+.search{
+	display: flex;
+	
+}
+.s{
+	border-radius: 20px;
+	
+}
+.mag{
+	width: 27px;
+		height: 30px;
+		border-radius: 50px;
+}
+.marChar{
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+}
+.lower{
+	height:10%;
+	background-color: red;
+	margin: 0;
+}
+.marChar:hover{
+	transform: scale(1.1);
+}
+.mainn{
+	text-align: center;
+	font-family: 'Allerta Stencil';
+}
+.mainn1{
+	text-align: center;
+	width: 70%;
+	font-family: 'Allerta Stencil';
+	margin: auto;
+}
+.feature{
+	margin: 30px;
+	font-size: 40px;
+}
+.smallGrid{
+	display: grid;
+	grid-template-columns: auto auto auto auto ;
+	grid-gap: 0px;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	margin-top: 75px;
+}
+.loginBox{
+	width:300px;
+	height: 500px;
+	
+	margin-top: 200px;
+	text-align: center;
+	
+}
+.loginBox input{
+	border-radius: 20px;
+}
+.iron{
+	width: 500px;
+	height: 600px;
+}
+.mix{
+	display: flex;
+}
+.gridDc{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-gap: 0px;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	margin-top:50px;
+}
+.gridDc > div:hover{
+	transform: scale(1.1);
+}
+.dcIcon{
+	text-align: center;
+	margin-top: 50px;
+}
+.smallGridDc{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-gap: 0px;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	margin-top: 75px;
+}
+.stay{
+	font-size: 100px;
+	color: #0282f9;
+	margin: 0;
+	text-align: center;
+}
+.social{
+	text-align: center;
+
+}
+.rotate{
+	display: flex;
+	text-align: center;
+}
+.rot{
+	margin-left: 500px;
+}
+.con{
+	text-align: center;
+	font-size: 50px;
+	color: #0282f9;
+}
+.merc{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	text-align: center;
+}
+.boc{
+	text-align: center;
+	font-size: 50px;
 }
